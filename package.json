@@ -1,0 +1,30 @@
+{
+  "name": "location-data-api",
+  "version": "1.0.0",
+  "description": "NodeJS server and API for storing location based data into a MongoDB cluster.",
+  "main": "app.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NickCrawford/location-data-api.git"
+  },
+  "author": "Nick Crawford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NickCrawford/location-data-api/issues"
+  },
+  "homepage": "https://github.com/NickCrawford/location-data-api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bunyan": "^1.8.5",
+    "cors": "^2.8.1",
+    "csvtojson": "^1.0.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.3"
+  }
+}
